@@ -185,7 +185,7 @@ public class Application {
                         ((Timer) e.getSource()).stop();
                         bounceArea.append(elapse + "\n");
                         label.setText("o");
-                        JLabel distanceLabel = new JLabel((int) nX + " m");
+                        JLabel distanceLabel = new JLabel((((int) nX  - 30) / 4) + " m");
                         distanceLabel.setBounds((int) nX - 10, (int) nY + 10, 300, 12);
                         distanceLabel.setVisible(true);
                         frame.add(distanceLabel);
